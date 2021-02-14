@@ -23,30 +23,7 @@ namespace WindowsFormsApp1
             button1.Visible = false;
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-        
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+      
         BackgroundWorker backgroundWorker;
         private void Send_Click(object sender, EventArgs e)
         {
@@ -83,20 +60,7 @@ namespace WindowsFormsApp1
             label3.Text = "Stopped";
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-        
-        }
 
-        private void Username_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private async void TaskAsync(string From, string To, string Password, string Subject, string Content)
         {
